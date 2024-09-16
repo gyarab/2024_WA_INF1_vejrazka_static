@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  color: lightblue;
+}
+
+a:visited {
+  color: indianred;
+}
+
+.nadpis {
+  font-size: 30px;
+}
+
+.info {
+  font-size: 25px;
+  max-width: 75vw;
+  margin-bottom: 20px;
+}
+
+.content-area {
+  margin-left: 10px;
+  margin-right: 10px;
+}
