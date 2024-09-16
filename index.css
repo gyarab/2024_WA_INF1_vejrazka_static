@@ -15,11 +15,11 @@ a:visited {
 }
 
 .nadpis {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .info {
-  font-size: 25px;
+  font-size: 20px;
   max-width: 75vw;
   margin-bottom: 20px;
 }
@@ -27,4 +27,28 @@ a:visited {
 .content-area {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.tabulka {
+  font-size: 20px;
+}
+
+.tabulka tr {
+  border-bottom: 1px solid white;
+}
+
+.tabulka tr:last-child {
+  border-bottom: none;
+}
+
+.tabulka td {
+  border-left: 1px solid white;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tabulka td:first-child {
+  border-left: none;
 }
