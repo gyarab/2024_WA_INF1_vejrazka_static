@@ -22,15 +22,22 @@ a:visited {
   font-size: 20px;
   max-width: 75vw;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .content-area {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .tabulka {
   font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tabulka {
+    font-size: 50px;
+  }
 }
 
 .tabulka tr {
@@ -51,4 +58,46 @@ a:visited {
 
 .tabulka td:first-child {
   border-left: none;
+}
+
+.flex {
+  display: flex;
+  font-size: 20px;
+}
+
+.even {
+  justify-content: space-evenly;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+}
+
+.start {
+  justify-content: start;
+}
+
+.end {
+  justify-content: end;
+}
+
+@media screen and (max-width: 1000px) {
+  .flex {
+    font-size: 50px;
+  }
+}
+
+.button {
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .button {
+    font-size: 40px;
+  }
 }
